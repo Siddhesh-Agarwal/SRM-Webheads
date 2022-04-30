@@ -30,18 +30,21 @@
 
 <body class="bg-white dark:bg-[#1c2128]">
     <!-- Header begins -->
-    <header class="bg-[#2d333b] text-gray-600 body-font shadow-md">
-        <div class="flex-row font-medium items-center text-gray-900 mb-4 md:mb-0 py-1 px-4">
+    <header class="bg-[#2d333b] text-gray-600 dark:text-gray-400 body-font shadow-md">
+        <div class="flex-row font-medium items-center text-gray-900 dark:text-gray-100 mb-4 md:mb-0 py-1 px-4">
             <div class="flex justify-between items-center my-2">
                 <div class="block">
-                    <a href="about/index.html" class="text-gray-900 dark:text-white hover:opacity-75 px-2 text-xl">
+                    <a href="../about/index.html"
+                        class="text-gray-900 dark:text-gray-100 dark:text-white hover:opacity-75 px-2 text-xl">
                         About
                     </a>
-                    <a href="blogs/index.html" class="text-gray-900 dark:text-white hover:opacity-75 px-2 text-xl">
-                        Blogs
-                    </a>
-                    <a href="projects/index.html" class="text-gray-900 dark:text-white hover:opacity-75 px-2 text-xl">
+                    <a href="../projects/index.html"
+                        class="text-gray-900 dark:text-gray-100 dark:text-white hover:opacity-75 px-2 text-xl">
                         Projects
+                    </a>
+                    <a href="../index.html"
+                        class="text-gray-900 dark:text-gray-100 dark:text-white hover:opacity-75 px-2 text-xl">
+                        Home
                     </a>
                 </div>
                 <div class="block">
@@ -62,6 +65,86 @@
         </div>
     </header>
     <!-- Header Ends -->
+
+    <!-- Blog posts list -->
+    <section class="text-gray-600 dark:text-gray-400 body-font overflow-hidden">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="-my-8 divide-y-2 divide-gray-100">
+                <div class="py-8 flex flex-wrap md:flex-nowrap">
+                    <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                        <span class="font-semibold title-font text-gray-700 dark:text-gray-300">Python</span>
+                        <span class="mt-1 text-gray-500 text-sm">19 Apr 2022</span>
+                    </div>
+                    <div class="md:flex-grow">
+                        <h2 class="text-2xl font-medium text-gray-900 dark:text-gray-100 title-font mb-2">
+                            Packaging and Publishing on PyPI
+                        </h2>
+                        <p class="leading-relaxed">
+                            Have you ever wonder how python packages are packaged and published on PyPI? Have you ever
+                            wanted to publish a software so that other could pip install it? If yes, check out the
+                            article.
+                        </p>
+                        <a class="text-blue-500 inline-flex items-center mt-4"
+                            href="https://dev.to/siddhesh_agarwal/packaging-and-publishing-on-pypi-1lbd"
+                            target="_blank">Learn More
+                            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="py-8 flex flex-wrap md:flex-nowrap">
+                    <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                        <span class="font-semibold title-font text-gray-700 dark:text-gray-300">Python</span>
+                        <span class="mt-1 text-gray-500 text-sm">16 Jan 2022</span>
+                    </div>
+                    <div class="md:flex-grow">
+                        <h2 class="text-2xl font-medium text-gray-900 dark:text-gray-100 mb-2">
+                            print() in python
+                        </h2>
+                        <p class="leading-relaxed">
+                            We have all used the print() statement in python but here are some of the less known
+                            parameters of the print() function.
+                        </p>
+                        <a class="text-blue-500 inline-flex items-center mt-4"
+                            href="https://dev.to/siddhesh_agarwal/print-in-python-556p" target="_blank">Learn More
+                            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="py-8 flex flex-wrap md:flex-nowrap">
+                    <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                        <span class="font-semibold title-font text-gray-700 dark:text-gray-300">Python</span>
+                        <span class="text-sm text-gray-500">18 Dec 2021</span>
+                    </div>
+                    <div class="md:flex-grow">
+                        <h2 class="text-2xl font-medium text-gray-900 dark:text-gray-100 title-font mb-2">
+                            id() in python
+                        </h2>
+                        <p class="leading-relaxed">
+                            How does python interpreter handle same values given to different variables? In this
+                            article, we will use the id() function to find out the answer!
+                        </p>
+                        <a class="text-blue-500 inline-flex items-center mt-4"
+                            href="https://dev.to/siddhesh_agarwal/id-in-python-27b5" target="_blank">Learn More
+                            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M5 12h14"></path>
+                                <path d="M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog posts list ends -->
 </body>
 
 </html>

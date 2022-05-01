@@ -3,8 +3,8 @@
 Project for the SRM Sketch Webheads competition.
 _____
 
-## Inspiration
+## References
 
-### Theme
-
-- GitHub
+- https://getwaves.io/
+- https://tailwindcss.com
+- https://watercss.kognise.dev/
